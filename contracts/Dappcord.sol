@@ -22,16 +22,17 @@ contract Dappcord is ERC721 {
         _;
     }
 
-    constructor(string memory _name, string memory _symbol)
-        ERC721(_name, _symbol)
-    {
+    constructor(
+        string memory _name,
+        string memory _symbol
+    ) ERC721(_name, _symbol) {
         owner = msg.sender;
     }
 
-    function createChannel(string memory _name, uint256 _cost)
-        public
-        onlyOwner
-    {
+    function createChannel(
+        string memory _name,
+        uint256 _cost
+    ) public onlyOwner {
         totalChannels++;
         channels[totalChannels] = Channel(totalChannels, _name, _cost);
     }
