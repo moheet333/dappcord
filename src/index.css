@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;500;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;500;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -7,13 +7,13 @@
 }
 
 :root {
-  --clr-white: #FFFFFF;
+  --clr-white: #ffffff;
   --clr-black: #202020;
   --clr-grey: #303136;
   --clr-light-grey: #363940;
   --clr-dark-grey: #212226;
-  --clr-blue: #5865F2;
-  --clr-green: #34AB55;
+  --clr-blue: #5865f2;
+  --clr-green: #34ab55;
 
   --clr-text-grey: #66666e;
 }
@@ -43,7 +43,7 @@ nav {
   display: flex;
   align-items: center;
 
-  padding: 0 75px;
+  padding: 0 90px;
 
   grid-column: 1 / span 3;
 }
@@ -52,14 +52,14 @@ nav {
   color: var(--clr-white);
 
   font-family: "Kanit";
-  font-size: 1.50em;
+  font-size: 1.5em;
   font-weight: 700;
   letter-spacing: -1px;
 }
 
 .nav__connect {
   width: 175px;
-  height: 50px;
+  height: 40px;
   margin: 0 75px 0 auto;
 
   background-color: var(--clr-dark-grey);
@@ -69,7 +69,7 @@ nav {
   border-radius: 8px;
 
   font-family: "Open Sans";
-  font-size: 1.10em;
+  font-size: 1.1em;
   font-weight: 600;
 
   cursor: pointer;
@@ -156,7 +156,7 @@ main {
   margin: 0 10px;
   padding: 5px;
 
-  font-size: 0.90em;
+  font-size: 0.9em;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -170,7 +170,7 @@ main {
   margin: 3px 10px;
   padding: 5px 20px;
 
-  font-size: 1.10em;
+  font-size: 1.1em;
   font-weight: 600;
 
   cursor: pointer;

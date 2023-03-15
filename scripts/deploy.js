@@ -8,7 +8,7 @@ async function main() {
   const Dappcord = await hre.ethers.getContractFactory("Dappcord");
   const dappcord = await Dappcord.deploy("Dappcord", "DC");
   await dappcord.deployed();
-  const [deployer, random] = hre.ethers.getSigners();
+  const [deployer, random] = await hre.ethers.getSigners();
 
   console.log("Deployed contract at : ", dappcord.address);
 
